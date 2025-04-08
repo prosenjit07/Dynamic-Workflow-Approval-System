@@ -3,15 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-*/
-
-Route::get('/{path?}', function () {
-    return view('app');
-})->where('path', '.*');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
