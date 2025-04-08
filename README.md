@@ -19,7 +19,7 @@ A Laravel-based workflow management system.
 
 1. Clone the repository
 ```bash
-git clone [your-repository-url]
+git clone [repository-url]
 ```
 
 2. Install PHP dependencies
